@@ -6,7 +6,7 @@ You’ve explored how prompt design can dramatically shape model behavior, it’
 
 And you've already laid the foundation for prompt versioning by keeping the prompts in Git. With this module, we'll dive a bit deeper on why and how to move from one-off prompt experiments to versioned, auditable, reusable prompt templates.
 
-### 🎯 Why Prompt Versioning Matter
+### 🎯 Why Prompt Versioning Matters
 
 Think of a good prompt like a well-written function or component. Once you get it right, you want to **reuse it** across different apps and users.
 
@@ -14,7 +14,7 @@ But in GenAI workflows, we face a big challenge: Prompt experiments are often **
 
 This makes collaboration hard and reproducibility nearly impossible—especially at scale.
 
-That’s where **prompt versioning** and a **prompt registry** concept come in. And we know that Git provides traceability, visibility, auditability so why not using Git as the prompt registry, right?
+That’s where **prompt versioning** and a **prompt registry** concept come in. And we know that Git provides traceability, visibility, auditability so why not use Git as the prompt registry, right?
 
 ## 🧱 Storing a Prompt
 
