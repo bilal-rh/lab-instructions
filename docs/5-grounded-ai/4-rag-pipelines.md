@@ -40,17 +40,17 @@ We are specifically looking to automate the top part, how new documents go into 
 
    [🌲 Redwood Digital University website](https://rdu-website-ai501.<CLUSTER_DOMAIN>)
 
-   Head over to the webpage, look through the programs and download the syllabus from your favourite program! Save it locally, we are going to upload it to `documents` bucket in MinIO. 
+   Go to the webpage, browse the programs in the "Academic Excellence" section, and download the syllabus for your favorite programs by clicking the "Learn More" link. Once on a program page, click "Download Program Info Sheet (PDF)" to download it! Save it locally, we are going to upload it to `documents` bucket in MinIO. 
 
-4. Go to your [MinIO instance](https://minio-ui-<USER_NAME>-toolings.<CLUSTER_DOMAIN>) and login with your credentials.
+5. Go to your [MinIO instance](https://minio-ui-<USER_NAME>-toolings.<CLUSTER_DOMAIN>) and login with your credentials.
 
-5. Under `Object Browser`, go to `documents` bucket and drop the PDF you downloaded. 
+6. Under `Object Browser`, go to `documents` bucket and drop the PDF you downloaded. 
 
    ![minio-upload-pdf.gif](./images/minio-upload-pdf.gif)
 
    ![trash-gif](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG5ia3k0bWdiNWNiMDB4cWhid20yYWc2endsdm12aHZ2aHJmdnQwZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ytSUKYKGw054uqCHpP/giphy.gif)
 
-6. Now that we have the documents to ingest, let's create a document ingestion pipeline to move them into our vector database!
+7. Now that we have the documents to ingest, let's create a document ingestion pipeline to move them into our vector database!
 
 ## 🎯 Running the Document Ingestion Pipeline
 
